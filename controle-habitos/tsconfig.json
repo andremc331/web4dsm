@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    /* Diretórios */
+    "baseUrl": "./src", 
+    "outDir": "./dist",
+    "rootDir": "./src",
+
+    /* Módulos e JSX */
+    "target": "ESNext", 
+    "module": "ESNext", 
+    "moduleResolution": "Node",
+    "jsx": "react-jsx",
+
+    /* Verificações de Tipo */
+    "strict": true, 
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    /* Imports */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+
+    /* Suporte a novas libs JS */
+    "lib": ["DOM", "DOM.Iterable", "ESNext"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
